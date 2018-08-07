@@ -260,8 +260,6 @@ function ivrpro_get_config($engine) {
 			if (!$results) {
 				break;//nothing to do!
 			}
-				break;
-			}
 			foreach($results as $ivr) {
 				$c = 'ivrpro-' . $ivr['id'];
 
